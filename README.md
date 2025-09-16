@@ -12,3 +12,5 @@ Crear dos grupos A tiene ciertas ventajas. Podemos establecer el principio de qu
 Utilizarás el mismo dataset para el análisis general y para el análisis A/A/B. En proyectos reales, los experimentos se llevan a cabo constantemente. El equipo de análisis estudia la calidad de una aplicación utilizando datos generales, sin prestar atención a si los usuarios participan en experimentos.
 
 Para resolver este problema: se aplicaran los conocimientos de python adquiridos en modulos posteriores.  Se ocupara Python, pandas, matplotlib, seaborn y scipy.stats. Ademas debemos de tener en cuente la teoria de TEST A/B par determinar los tamaños de las muestrars.
+
+Para ejecutar, se debe de descargar los archivos y cambiar la ruta en la liena pd.read_csv('/datasets/logs_exp_us.csv', sep='\t') del dataset deacuerdo a la ubicación de descarga.
